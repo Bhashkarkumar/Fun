@@ -1,0 +1,189 @@
+#first {
+    width: 50%;
+    position: relative;
+    top: -20px;
+
+}
+
+/* #first h1 {
+    width: 50%;
+}
+
+#first p {
+    width: 50%;
+} */
+
+#mission {
+    width: 50%;
+}
+
+#first_img {
+    /* border: 5px solid black; */
+    /* width: 50%; */
+}
+
+#first_img img {
+    width: 700px;
+    height: 350px;
+    position: relative;
+    left: 800px;
+    top: 70px;
+}
+
+#aero {
+    display: inline;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 50px;
+    left: 30px;
+    color: blanchedalmond;
+
+}
+
+#aero img {
+    /* border: 2px solid black; */
+}
+
+#second {
+    position: relative;
+    /* border: 2px solid red; */
+    width: 100%;
+    position: absolute;
+    left: 820px;
+    margin-top: -250px;
+    text-align: justify;
+
+}
+
+#footer {
+    position: relative;
+    top: 150px;
+}
+
+@media (max-width: 400px) {
+    #first {
+        width: 95%;
+        text-align: justify;
+
+    }
+
+    /* #first h1 {
+        width: 50%;
+    }
+    
+    #first p {
+        width: 50%;
+    } */
+
+    #logo {
+        display: inline;
+        font-size: 30px;
+        padding-left: 10px;
+        /* border: 2px solid red; */
+        text-align: center;
+        position: relative;
+        top: 15px;
+
+    }
+
+    #logo p {
+
+        display: inline;
+
+    }
+
+    #navbar {
+        float: right;
+        /* border: 2px solid red; */
+        display: inline;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 15px;
+        box-sizing: border-box;
+        margin-right: 15px;
+
+
+
+    }
+
+    #one1 {
+        position: relative;
+        left: 250px;
+        bottom: 53px;
+    }
+
+    #two2 {
+        position: relative;
+        left: 182px;
+        bottom: 40px;
+    }
+
+    #three3 {
+        position: relative;
+        left: 115px;
+        bottom: 27px;
+    }
+
+    #four4 {
+        position: relative;
+        left: 39px;
+        bottom: 15px;
+    }
+
+    #five5 {
+        position: relative;
+        left: 146px;
+        bottom: 20px;
+    }
+
+    #mission {
+        width: 95%;
+    }
+
+    #mission p {
+        width: 100%;
+    }
+
+
+
+    #first_img img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 25px;
+        top: 25px;
+    }
+
+    #aero {
+        display: inline;
+        /* border: 2px solid black; */
+        position: relative;
+        top: 60px;
+        left: 6px;
+        color: blanchedalmond;
+        /* transform: rotate(90deg); */
+
+    }
+
+    #aero img {
+        /* border: 2px solid black; */
+        transform: rotate(90deg);
+
+    }
+
+    #second {
+        position: relative;
+        /* border: 2px solid red; */
+        width: 95%;
+        position: absolute;
+        left: 0px;
+        /* margin-top: -0px; */
+        top: 1500px;
+
+    }
+
+    #footer {
+        position: relative;
+        top: 750px;
+    }
+}

@@ -1,0 +1,513 @@
+#marquee {
+    font-size: 30px;
+    color: red;
+    background-color: yellow;
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: -3px;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: blanchedalmond;
+
+}
+
+/* * {
+    overflow-x: hidden;
+} */
+
+#header {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: aquamarine;
+    height: 60px;
+}
+
+#logo {
+    display: inline;
+    font-size: 40px;
+    padding-left: 20px;
+    /* border: 2px solid red; */
+
+}
+
+#logo p {
+
+    display: inline;
+
+}
+
+#navbar {
+    float: right;
+    /* border: 2px solid red; */
+    display: inline;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+
+
+
+}
+
+#navbar a {
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+#what_is_this {
+    width: 50%;
+    margin-top: 50px;
+    text-align: justify;
+
+}
+
+#first_img img {
+    width: 40%;
+    height: 400px;
+    float: right;
+    margin-top: -375px;
+    margin-right: 15px;
+    border: 1px solid red;
+    border-radius: 25px;
+    box-shadow: 2px 2px 20px red;
+
+
+}
+
+#say_to_signup {
+    width: 42%;
+    float: right;
+    text-align: justify;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-right: -670px;
+
+}
+
+#aero {
+    margin-left: 30px;
+    margin-top: 65px;
+}
+
+#sign_up_button {
+    float: right;
+    margin-right: 35px;
+    margin-top: -10px;
+
+}
+
+#instagram {
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid red;
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-left: 82px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-right: 60px;
+    color: white;
+    background-color: brown;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+#facebook {
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid blue;
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-left: 82px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+#chat {
+    width: 50%;
+    color: red;
+    /* background-color: yellow; */
+}
+
+#chat p {
+    color: firebrick;
+    /* background-color: blanchedalmond; */
+    display: inline;
+    /* border: 2px solid red; */
+}
+
+#video {
+    float: right;
+    margin-top: -250px;
+    width: 500px;
+
+
+
+}
+
+#video video {
+    height: 250px;
+    /* width: 500px; */
+    border-radius: 25px;
+    box-shadow: 2px 2px 20px blue;
+}
+
+#additional h3 {
+    background-color: yellow;
+    display: inline;
+}
+
+#rating h2 {
+    position: relative;
+    left: 570px;
+    background-color: aqua;
+    display: inline;
+    border-radius: 5px;
+    box-shadow: 2px 0px 5px blue;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+#footer p {
+    position: relative;
+    left: 460px;
+}
+
+
+/* Apply styles to all elements when the screen width is 600px or less */
+
+
+@media (max-width: 400px) {
+
+    #marquee {
+        font-size: 30px;
+        color: red;
+        background-color: yellow;
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+        margin-bottom: -3px;
+
+        width: 100%;
+
+        overflow-x: hidden;
+    }
+
+
+
+    body {
+        overflow-x: hidden;
+        background-color: blanchedalmond;
+        /* border: 5px solid blue; */
+
+        width: 95%;
+
+        /* border: 5px solid blue; */
+    }
+
+
+    #header {
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+
+        /* border: 5px solid red; */
+
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    #container {
+        background-color: aquamarine;
+        height: 60px;
+    }
+
+    #logo {
+        display: inline;
+        font-size: 30px;
+        padding-left: 10px;
+        /* border: 2px solid red; */
+        text-align: center;
+        position: relative;
+        top: 15px;
+
+    }
+
+    #logo p {
+
+        display: inline;
+
+    }
+
+    #navbar {
+        float: right;
+        /* border: 2px solid red; */
+        display: inline;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 15px;
+        box-sizing: border-box;
+        margin-right: 15px;
+
+
+
+    }
+
+    #one1 {
+        position: relative;
+        left: 250px;
+        bottom: 53px;
+    }
+
+    #two2 {
+        position: relative;
+        left: 182px;
+        bottom: 40px;
+    }
+
+    #three3 {
+        position: relative;
+        left: 115px;
+        bottom: 27px;
+    }
+
+    #four4 {
+        position: relative;
+        left: 39px;
+        bottom: 15px;
+    }
+
+    #five5 {
+        position: relative;
+        left: 146px;
+        bottom: 20px;
+    }
+
+    #navbar a {
+        text-decoration: none;
+        padding-right: 30px;
+    }
+
+    #what_is_this {
+        width: 95%;
+        margin-top: 50px;
+        text-align: justify;
+
+    }
+
+    #first_img img {
+        width: 95%;
+        float: right;
+        margin-top: -1px;
+        margin-right: 16px;
+        border: 1px solid red;
+        border-radius: 25px;
+        box-shadow: 2px 2px 20px red;
+        height: auto;
+
+
+
+
+    }
+
+    #say_to_signup {
+        width: 95%;
+        float: right;
+        text-align: justify;
+        margin-right: 16px;
+
+
+    }
+
+    #aero {
+        margin-left: -3px;
+        margin-top: 800px;
+
+        transform: rotate(90deg);
+
+
+    }
+
+    #sign_up_button {
+        float: right;
+        margin-right: 35px;
+        margin-top: 80px;
+
+
+
+    }
+
+    #instagram {
+        text-decoration: none;
+        font-size: 30px;
+        border: 1px solid red;
+        padding-left: 82px;
+        padding-right: 82px;
+        padding-left: 82px;
+        padding-bottom: 5px;
+        text-align: center;
+        /* margin-right: -90px; */
+        color: white;
+        background-color: brown;
+        box-sizing: border-box;
+        border-radius: 12px;
+
+        /* margin-bottom: 50px; */
+        position: relative;
+        left: 80px;
+
+        z-index: 10;
+
+    }
+
+    #facebook {
+        text-decoration: none;
+        font-size: 30px;
+        border: 1px solid blue;
+        padding-left: 82px;
+        padding-right: 82px;
+        padding-left: 82px;
+        padding-bottom: 5px;
+        text-align: center;
+        color: white;
+        background-color: blue;
+        box-sizing: border-box;
+        border-radius: 12px;
+        margin-left: 45px;
+        /* margin-bottom: -80px; */
+        position: relative;
+        left: 37px;
+        top: 15px;
+        z-index: 10;
+        /* width: 250px; */
+    }
+
+    #first {
+        position: relative;
+        top: 50px;
+        width: 95%;
+        text-align: justify;
+    }
+
+    #second {
+        position: relative;
+        top: 10px;
+        width: 95%;
+        text-align: justify;
+    }
+
+    #three {
+        position: relative;
+        top: 10px;
+        width: 95%;
+        text-align: justify;
+    }
+
+
+
+    #chat {
+        width: 95%;
+        color: red;
+        /* background-color: yellow; */
+        text-align: justify;
+    }
+
+    #chat p {
+        color: firebrick;
+        /* background-color: blanchedalmond; */
+        display: inline;
+        /* border: 2px solid red; */
+    }
+
+    #video {
+        float: right;
+        margin-top: 25px;
+        /* border: 5px solid blue; */
+        width: 95%;
+
+        position: relative;
+        right: 20px;
+
+
+
+    }
+
+    #video video {
+        /* height: 300px; */
+        width: 100%;
+        height: 80%;
+        border-radius: 25px;
+        box-shadow: 2px 2px 20px blue;
+        /* margin-left: 110px; */
+        /* width: 300px; */
+
+        /* border: 5px solid red; */
+
+    }
+
+    .four {
+        position: relative;
+        top: 10px;
+        width: 95%;
+        text-align: justify;
+    }
+
+    #additional h3 {
+        background-color: yellow;
+        display: inline;
+        text-align: justify;
+    }
+
+    #additional p {
+        text-align: justify;
+        width: 95%;
+    }
+
+    #rating h2 {
+        position: relative;
+        left: 0px;
+        background-color: aqua;
+        display: inline;
+        border-radius: 5px;
+        box-shadow: 2px 0px 5px blue;
+        text-align: justify;
+        width: 95%;
+
+        /* border: 5px solid red; */
+    }
+
+    #rating h3 {
+        text-align: justify;
+        width: 95%;
+    }
+
+    #rating p {
+        text-align: justify;
+        width: 95%;
+    }
+
+    #footer {
+        background-color: black;
+        color: white;
+        width: 95%;
+    }
+
+    #footer p {
+        position: relative;
+        left: 0px;
+        width: 100%;
+    }
+}
